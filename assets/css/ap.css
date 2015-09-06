@@ -28,17 +28,27 @@ html,body{
 	width: 1000px;
 }
 
-.img-dimension{
+.dp-dimension{
     width: 200px;
+}
+
+.dp-margin{
+    margin: 0 auto;
+}
+
+.pad-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer{
 	height: 75px;
     width: 100%;
-    background-color: #fff;
+    background-color: #888;
     color: #333;
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    bottom: -25px;
+
 }
 
 .footer-social-font{
@@ -49,6 +59,15 @@ html,body{
     font-size: 11px;
 }
 
+.menu-font{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.width-100{
+    width: 100%;
+}
 
 
 
@@ -92,8 +111,7 @@ html,body{
     color: #777;
 }
 .navbar-default .navbar-nav > li > a:hover {
-    color: #111;
-    
+    color: #111;    
 }
 
 .navbar-default .navbar-nav > li > a:focus {
@@ -103,9 +121,27 @@ html,body{
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #fff; 
+}
 
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
 
-
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
 
 
