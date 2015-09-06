@@ -1,0 +1,100 @@
+html,body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.font-primary{
+	font-family: 'Raleway', sans-serif;
+}
+
+.font-bold{
+	font-weight: 700;
+}
+
+.namefontsize{
+	font-size: 21px;
+}
+
+.namediv-height{
+	height: 100px;
+	width: 100%;
+}
+
+.namepara-position{
+	position: relative;
+	top: 50%;
+}
+
+.wrap{
+	width: 1000px;
+}
+
+.footer{
+	height: 75px;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    position: absolute;
+    bottom: 0px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #111;
+    
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: green;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #fff; 
+
+
+
+
+
+
