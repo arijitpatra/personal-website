@@ -97,6 +97,11 @@ a:hover {
     color: #555;
 }
 
+a:active {
+    text-decoration: none;
+    color: #555;
+}
+
 .resume-link-hover:hover {
     text-decoration: none;
     color: #fff;
@@ -164,7 +169,7 @@ footer {
 }
 
 .navbar-default .navbar-nav > li > a:focus {
-    color: green;
+    color: #EA4335;
     font-weight: 700;
 }
 

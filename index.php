@@ -42,8 +42,8 @@
 	<div class="photo-redirection text-center">
 		<i class="fa fa-spinner fa-pulse pulse-size"></i><br>
 		Please wait. <br> 
-		This section is being redirected to arijitpatra.yolasite.com ...<br><br><br>
-		<a href="index.php"><p><span class="cancel-box"><i class="fa fa-times times-text"></i><span class="font-primary font-bold cancel-text">&nbspCANCEL</span></span></p></a>
+		This section is being redirected to arijitpatra.yolasite.com in <span id="count">10 </span> seconds<br><br><br>
+		<a href="index.php" class="nodeco-link"><p><span class="cancel-box"><i class="fa fa-times times-text"></i><span class="font-primary font-bold cancel-text">&nbspCANCEL</span></span></p></a>
 	</div>
 </div>
     
@@ -52,35 +52,8 @@
 ?>
 
 
- <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("#resume").click(function(){
-        $("#result").load("resume.php").addClass("content");
-        $("#about").empty();
-    });
-    $("#me").click(function(){
-        $("#about").load("about.php").addClass("content");
-        $("#result").empty();
-    });
-    $("#contact").click(function(){
-        $("#result").load("contact.php").addClass("content");
-        $("#about").empty();
-    });
-
-    $("#photo").click (function (e) {
-    	$("#result").empty();
-    	$(".photo-redirection").addClass("text-center").show();
-        $("#about").empty();
-   e.preventDefault(); //will stop the link href to call the blog page
-
-   setTimeout(function () {
-       window.location.href = "http://www.arijitpatra.yolasite.com/photo-gallery.php"; //will redirect to your blog page (an ex: blog.html)
-    }, 5000,'_blank'); //will call the function after 2 secs.
-
-	});
-});
-</script>
+	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="assets/js/ap.js"></script>
 </body>
 </html>
