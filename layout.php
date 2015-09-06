@@ -49,30 +49,6 @@
 		</div>
 	</div>
 
-	<div class="container">
-		<div class="row">
-    		<div class="col-xs-4 text-center" >
-      			Hello
-    		</div>
-    		<div class="col-xs-4">
-      			<img src="assets/img/ap.jpg" class="img-responsive img-circle img-dimension text-center">
-    		</div>
-    		<div class="col-xs-4 text-center">
-      			Bye
-    		</div>
-  		</div>
-    </div>
-
-    <div>
-    	h
-    	h
-    	h
-    	h
-    	h
-    	h
-    	h
-    </div>
-
     <div class="footer">
     	<div class="container">
     		<div class="row">
@@ -100,7 +76,7 @@
 			</div>
 			<div class="row">	
 				<div class="col-sm-12 text-center footer-madein-font">
-					<span>www.arijitpatra.in | Made with <i class="fa fa-heart"></i> by Arijit Patra | 2015</span>
+					<span>Made with <i class="fa fa-heart"></i> by Arijit Patra | 2015</span>
 				</div>
 			</div>	
 		</div>

@@ -28,14 +28,25 @@ html,body{
 	width: 1000px;
 }
 
+.img-dimension{
+    width: 200px;
+}
+
 .footer{
 	height: 75px;
     width: 100%;
     background-color: #fff;
     color: #333;
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-social-font{
     font-size: 25px;
+}
+
+.footer-madein-font{
+    font-size: 11px;
 }
 
 
