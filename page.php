@@ -1,3 +1,4 @@
 <?php 
-include 'layout.php';
+include 'header.php';
+include 'footer.php';
 ?>

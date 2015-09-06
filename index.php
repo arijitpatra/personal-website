@@ -19,34 +19,9 @@
 </head>
 <body>
 
-	<div class="text-center namediv-height">
-		<p class="namepara-position">
-			<span class="font-primary namefontsize">
-				<span class="font-bold">A R I J I T</span>
-				<span>&nbspPATRA</span>
-			</span>
-		</p>
-	</div>
-
-	<div class="navbar navbar-default font-primary" role="navigation">
-		 <div class="navbar-header">
-		<span class="navbar-toggle width-100" data-toggle="collapse" data-target="#navlinks">
-        	<i class="fa fa-bars menu-font"></i>                       
-      	</span>
-      	</div>
-      	<div class="collapse navbar-collapse width-100" id="navlinks">
-			<ul class="nav navbar-nav">
-        		<li id="photo"><a href="#">Work</a></li>
-        		<li id="photo"><a href="#">Resume</a></li>
-        		<li id="pic"><a href="#">Photography</a></li>
-        		<li id="contact"><a href="#">Contact</a></li>
-        		<li id="photo"><a href="#">About</a></li>
-        		<li id="photo"><a href="#">Portfolio</a></li>
-        		<li id="photo"><a href="#">Projects</a></li>
-        		<li id="photo"><a href="#">Achievements</a></li>
-      		</ul>
-		</div>
-	</div>
+	<?php 
+		include 'header.php';
+	?>
 
 	<div class="container pad-100 content" id="about">
 		<div class="row">
@@ -109,7 +84,7 @@ $(document).ready(function(){
         $("#about").hide().removeClass("content");
     });
      $("#contact").click(function(){
-        $("#result").load("hello2.html").addClass("content");
+        $("#result").load("resume.php").addClass("content");
         $("#about").hide().removeClass("content");
     });
      $("#photo").click(function(){
