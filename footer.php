@@ -1,6 +1,5 @@
-<footer class="site-footer">
-    	<div class="container">
-    		<div class="row">
+<footer>
+	<div class="row">
     			<div class="col-sm-12 text-center footer-social-font">
 	    			<i class="fa fa-github"></i>
 	    			<i class="fa fa-instagram"></i>
@@ -28,5 +27,4 @@
 					<span>www.arijitpatra.in | Made with <i class="fa fa-heart"></i> by Arijit Patra | 2015</span>
 				</div>
 			</div>	
-		</div>
-    </footer>
+</footer>

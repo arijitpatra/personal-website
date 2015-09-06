@@ -1,3 +1,4 @@
+<div class="heading">
 	<div class="text-center namediv-height">
 		<p class="namepara-position">
 			<span class="font-primary namefontsize">
@@ -15,18 +16,18 @@
       	</div>
       	<div class="collapse navbar-collapse width-100" id="navlinks">
 			<ul class="nav navbar-nav">
-        		<li id="photo"><a href="#">Work</a></li>
-        		<li id="photo"><a href="#">Resume</a></li>
-        		<li id="pic"><a href="#">Photography</a></li>
+        		<li id="work"><a href="#">Work</a></li>
+        		<li id="resume"><a href="#">Resume</a></li>
+        		<li id="photo"><a href="#">Photography</a></li>
         		<li id="contact"><a href="#">Contact</a></li>
-        		<li id="photo"><a href="#">About</a></li>
-        		<li id="photo"><a href="#">Portfolio</a></li>
-        		<li id="photo"><a href="#">Projects</a></li>
-        		<li id="photo"><a href="#">Achievements</a></li>
+        		<li id="me"><a href="#">About</a></li>
+        		<li id="portfolio"><a href="#">Portfolio</a></li>
+        		<li id="projects"><a href="#">Projects</a></li>
+        		<li id="achievements"><a href="#">Achievements</a></li>
       		</ul>
 		</div>
 	</div>
-
+</div>
 
 
     

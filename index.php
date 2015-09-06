@@ -22,10 +22,10 @@
 	<?php 
 		include 'header.php';
 	?>
-
-	<div class="container pad-100 content" id="about">
+<div class="container pad-25">
+	<div id="about">
 		<div class="row">
-		<div class="col-sm-4">
+			<div class="col-sm-4">
       			<img src="assets/img/favicon.png" class="img-responsive img-circle dp-dimension dp-margin">
     		</div>
     		<div class="col-sm-8">
@@ -38,58 +38,26 @@
   		</div>
   	</div>
 
-<div id="result"></div>
-
+	<div id="result"></div>
+	<div class="push"></div>
+</div>
     
+<?php
+	include 'footer.php';
+?>
 
-    <footer class="site-footer">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-sm-12 text-center footer-social-font">
-	    			<i class="fa fa-github"></i>
-	    			<i class="fa fa-instagram"></i>
-			    	<i class="fa fa-linkedin"></i>
-			    	<i class="fa fa-facebook"></i>
-			    	<i class="fa fa-google-plus"></i>
-			    	<i class="fa fa-skype"></i>
-			    	<i class="fa fa-whatsapp"></i>
-			    	<i class="fa fa-twitter"></i>
-			    	<i class="fa fa-envelope-o"></i>
-			 
-			    	<!-- <span class="fa-stack fa-lg">
-	  						<i class="fa fa-circle fa-stack-2x"></i>
-	  						<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-					</span> -->
-
-				<!-- 	<span class="fa-stack fa-lg">
-			  			<i class="fa fa-circle fa-stack-2x"></i>
-			  			<i class="fa fa-github fa-stack-1x fa-inverse"></i>
-					</span> -->
-				</div>
-			</div>
-			<div class="row">	
-				<div class="col-sm-12 text-center footer-madein-font">
-					<span>www.arijitpatra.in | Made with <i class="fa fa-heart"></i> by Arijit Patra | 2015</span>
-				</div>
-			</div>	
-		</div>
-    </footer>
 
  <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("#pic").click(function(){
-        $("#result").load("hello.html").addClass("content");
-        $("#about").hide().removeClass("content");
-    });
-     $("#contact").click(function(){
+    $("#resume").click(function(){
         $("#result").load("resume.php").addClass("content");
-        $("#about").hide().removeClass("content");
+        $("#about").hide();
     });
-     $("#photo").click(function(){
- 		$("#result").hide().removeClass("content");
+    $("#me").click(function(){
         $("#about").show().addClass("content");
+        $("#result").hide();
     });
 });
 </script>
